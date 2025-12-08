@@ -11,7 +11,7 @@ microcontroller:
 
 motors: 
 
-h-bridge:
+h-bridge:DRV8833
 
 sensors:
 

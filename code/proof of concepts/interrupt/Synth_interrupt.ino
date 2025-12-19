@@ -8,7 +8,7 @@ volatile unsigned long vorigeStop  = 0;
 const unsigned long debounce = 200; 
 
 void setup() {
-  attachInterrupt(digitalPinToInterrupt(stop),stopISR,FALLING); //intr
+  attachInterrupt(digitalPinToInterrupt(stop),stopISR,RISING); //intr
   pinMode(3,INPUT);
   pinMode(13,OUTPUT);
    

@@ -1,3 +1,4 @@
-# Sensoren proof of concept
+# Sensoren HY-S301
+<img width="629" height="597" alt="SchemaHY-S301" src="https://github.com/user-attachments/assets/28958c2d-384b-4c5b-9bcb-9cb6407dbe17" />
+De sensor wordt gevoed met met 5V van de aduino, pin 11 zit aan de IR ingang zodat deze aan/uit gezet kan worden(IR LED voor beter werking). A0-7 worden aan ingang 1-8 van de sensor gehangen, nu kunnen de waarden uitgelezen worden met behulp van een analogRead.
 
-minimale hard- en software die aantoont dat minimaal 6 sensoren onafhankelijk van elkaar kunnen uitgelezen worden (geen calibratie, normalisatie of interpolatie). Hierbij moet een zo groot mogelijk bereik van de AD converter benut worden (indien van toepassing)

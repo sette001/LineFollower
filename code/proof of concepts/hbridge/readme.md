@@ -1,3 +1,4 @@
-# H-Bridge proof of concept
+# H-Bridge DRV8833
 
-minimale hard- & software + stappenplan dat aantoont dat 2 motoren onafhankelijk van elkaar kunnen draaien, en (traploos) regelbaar zijn in snelheid en draairichting.
+<img width="582" height="416" alt="SchemaDRV8833" src="https://github.com/user-attachments/assets/f242faf8-f29a-47be-abea-4e20e36065cd" />
+
